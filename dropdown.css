@@ -38,7 +38,7 @@ li:focus-within {
 }
 
 li:focus-within a {
-    outline:none;
+    outline: none;
 }
 
 ul li ul {
@@ -55,7 +55,7 @@ ul li ul {
 
 ul li:hover > ul,
 ul li:focus-within > ul,
-ul li ul:hover
+ul li ul:hover,
 ul li ul:focus {
     visibility: visible;
     opacity: 1;
