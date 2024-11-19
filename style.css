@@ -113,3 +113,23 @@ nav {
     padding-bottom: 70px;
     background-color: #d9d9d9;
 }
+
+/* Jen's work*/
+.first-bar {
+    display: flex;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.first-bar h1 {
+    display: flex;
+    align-self: flex-start;
+}
+
+.first-bar p {
+    display: flex;
+    align-self: flex-end;
+}
