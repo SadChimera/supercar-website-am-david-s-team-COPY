@@ -104,4 +104,10 @@ nav {
 
 .ham-menu:nth-child(3) {
     top: 75%;
+.img-hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #d9d9d9;
 }
