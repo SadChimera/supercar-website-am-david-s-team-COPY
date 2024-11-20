@@ -160,3 +160,48 @@ nav {
     display: flex;
     align-self: flex-end;
 }
+
+/*  */
+
+
+
+.foot{
+    background-color: #404040;
+    color: white;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.foot-text{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.buttons{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+}
+
+.pic1{
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    
+}
+
+.pictures{
+    background-color: #737373;
+}
