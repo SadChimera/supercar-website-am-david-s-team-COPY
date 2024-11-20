@@ -27,30 +27,30 @@
     list-style: none;
 }
 
-.list2{
+.list2 {
     display: flex;
     list-style: none;
     margin-left: 70px;
 }
 
-.list3{
+.list3 {
     display: flex;
     list-style: none;
     margin-left: 70px;
 }
 
-a:link{
+a:link {
     color: black;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: black;
 }
 
-.img{
+.img {
     display: flex;
-    
+
 }
 
 .img-hero {
@@ -64,7 +64,7 @@ a:visited{
 /* Davids Work */
 /* off-screen-menu */
 .off-screen-menu {
-    background-color: rgb(34, 37, 49);
+    background-color:  lightgray;
     height: 100vh;
     width: 100%;
     max-width: 450px;
@@ -73,111 +73,138 @@ a:visited{
     right: -450px;
     display: flex;
     flex-direction: column;
+    align-items: center;    
     justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 3rem;
-    transition: .3s;
+    transition: .3s ease;
 }
-
 .off-screen-menu.active {
-    right: 0;
+    left: 0;
 }
 
+
+
+/* nav */
 nav {
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     background-color: rgb(34, 37, 49);
 }
 
+
+
+/* ham menu */
 .ham-menu {
-    height:  50px;
-    width: 50px;
-    margin-left: auto;
+    height: 50px;
+    width: 40px;
+    /* margin-left: auto; */
     position: relative;
 }
-
 .ham-menu span {
     height: 5px;
     width: 100%;
-    background-color: #6f86ff;
+    background-color: black;
     border-radius: 25px;
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease;
 }
-
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
-
-.ham-menu:nth-child(3) {
+.ham-menu span:nth-child(3) {
     top: 75%;
-
 }
-.img-hero{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    background-color: #d9d9d9;
+.ham-menu.active span {
+    background-color: white;
 }
-
-/* Jen's Work*/
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.off-screen-menu a {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+/* Jen's work*/
 .first-bar {
     display: flex;
-    width: 2021px;
+    width: 250px;
     height: 300px;
     border: 2px solid #c3c3c3;
-    background-color: #737373;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
 }
+
 .first-bar h1 {
+    display: flex;
     align-self: flex-start;
 }
+
 .first-bar p {
+    display: flex;
     align-self: flex-end;
 }
 
-.Trion-Man {
-    width: 2021px;
-    height: 700px;
-    border: 2px solid #c3c3c3;
-    background-color: #737373;
-    flex-wrap: wrap;
+/*  */
+
+
+
+.foot{
+    background-color: #404040;
+    color: white;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.foot-text{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.buttons{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+}
+
+.pic1{
+    display: flex;
+    font-size: x-large;
     align-items: center;
-    justify-content: center;
-}
-.Trion-Man h2 {
-    flex-wrap: wrap;
-    align-self: center;
-    margin-left: 50px; 
-    margin-bottom: 170px;
-}
-.Trion-Man p {
-    flex-wrap: wrap;
-    align-self: center;
-    width: 800px;
-    height: 100px;
-    margin-left: 50px;
-    margin-top: 40px;
-}
-.Trion-Man img {
-    align-self: flex-end;
-    float: right;
-    margin-right: 500px;
-    margin-bottom: 500px;
-    width: 400px;
+    
 }
 
+.pictures{
+    background-color: #737373;
+}
