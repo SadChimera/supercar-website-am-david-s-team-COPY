@@ -116,21 +116,57 @@ nav {
 
 /* Jen's Work*/
 
-.first-bar {
+.navbar {
     display: flex;
-    width: 250px;
-    height: 300px;
-    border: 2px solid #c3c3c3;
-    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    align-content: center;
-}
-.first-bar h1 {
-    display: flex;
-    align-self: flex-start;
 }
 
-.first-bar p {
+.first-bar {
     display: flex;
+    width: 2021px;
+    height: 300px;
+    border: 2px solid #c3c3c3;
+    background-color: #737373;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.first-bar h1 {
+    align-self: flex-start;
+}
+.first-bar p {
     align-self: flex-end;
 }
+
+.Trion-Man {
+    width: 2021px;
+    height: 700px;
+    border: 2px solid #c3c3c3;
+    background-color: #737373;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Trion-Man h2 {
+    flex-wrap: wrap;
+    align-self: center;
+    margin-left: 50px; 
+    margin-bottom: 170px;
+}
+.Trion-Man p {
+    flex-wrap: wrap;
+    align-self: center;
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.Trion-Man img {
+    align-self: flex-end;
+    float: right;
+    margin-right: 500px;
+    margin-bottom: 500px;
+    width: 400px;
+}
+
