@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+body {
+    height: 1000rem;
+}
+
 .navbar {
     display: flex;
     align-items: center ;
@@ -62,16 +66,17 @@ a:visited {
     height: 88vh;
     width: ;
     padding-bottom: 70px;
-    color: black;
+    color: white;
     background-color: black;
 }
 
 .img-hero h1{
-    display: flex;
-    justify-self: center;
-    margin-top: 45vh;
-    margin: ;
-    background-color:#A6A6A6;
+    /* display: flex; */
+    /* justify-self: center; */
+    margin-top: 40vh;
+    margin-right: 45rem;
+    /* background-color:#A6A6A6; */
+    font-size: 3rem;
 }
 
 /* Davids Work */
@@ -155,11 +160,75 @@ nav {
     list-style-type: none;
 }
 
+/* Nemesis */
+.car-hero  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);
+    background-size: cover;
+    background-color: #737373;
+    height: 80vh;
+    animation: slide 20s ease-in infinite;
+}
 
+@keyframes slide {
+    50% {background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);}
+    75% {background-image: url(7_25-Lux-Black-Nemesis_rr-crop-1024x682.png);}
+    100% {background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);}
+}
 
+.car-hero-overlay{
+    text-align: left;
+    height: 40vh;
+    color: white;
+    margin-right: %;
+}
 
+.nemesis-imageinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid black 5px;
+    background-image: url(7_25-Lux-Black-Nemesis_fr-crop-1024x576.jpg);
+}
 
+.nemesis-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: #404040;
+    padding: 3%;
+}
 
+/* Config interior */
+
+.interior-nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 48px;
+    padding: 0 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: .6;
+    min-width: 160px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+}
+
+.exterior-nav {
+
+}
 
 /* Jen's work*/
 
@@ -353,7 +422,7 @@ ul li ul:focus {
 
 
 .foot{
-    background-color: #404040;
+    background-color: #0D0D0D;
     color: white;
     display: flex;
     padding-bottom: 3%;
@@ -362,12 +431,15 @@ ul li ul:focus {
 .foot-text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 5%;
 }
 
 .Contact{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-self: center;
     margin: 5%;
 }
 
