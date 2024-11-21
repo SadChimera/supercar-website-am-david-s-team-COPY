@@ -162,13 +162,121 @@ nav {
 
 
 /* Jen's work*/
+
+/* Configuration */
+
+.saver {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+}
+.saver button {
+    float: left;
+}
+
+.config {
+    background-color: #737373;
+}
+.configWhite {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    position: absolute;
+    top: 10px;
+}
+.configWhite img {
+    width: 1270px;
+    height: 995px;
+}
+
+.changing-thiscolor {
+    display: flex;
+    justify-content: flex-end;
+}
+.changing-thiscolor nav {
+    align-items: flex-start;
+    background-color: #D9D9D9;
+    float: left;
+    width: 750px;
+    height: 980px;
+    font-family: monospace;
+}
+
+.changing-thiscolor a {
+    text-decoration: none;
+}
+
+.changing-thiscolor ul {
+    background: #D9D9D9;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    position: absolute;
+    right: 100px;
+    font-size: 33px;
+    border: 2px black solid; 
+}
+
+.changing-thiscolor li {
+    color: #fff;
+    background: #D9D9D9;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border: 1px black solid;
+}
+
+.changing-thiscolor li a {
+    color: #000000;
+}
+
+.changing-thiscolor li:hover,
+.changing-thiscolor li:focus-within {
+    background: #9a9a9a;
+    cursor: pointer;
+}
+
+.changing-thiscolor li:focus-within a {
+    outline: none;
+}
+
+.changing-thiscolor ul li ul {
+    background: #4a4a4a;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 9.1rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.changing-thiscolor ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.changing-thiscolor ul li ul li {
+    clear: both;
+    width: 100%;
+}
+/* Car Configuration */
+
+
+/* About Us */
 .first-bar {
     display: flex;
-    width: 2009px;
-    height: 400px;
+    width: 2006px;
+    height: 700px;
     background-color: #737373;
-    width: 250px;
-    height: 300px;
     border: 2px solid #c3c3c3;
     display: flex;
     flex-wrap: wrap;
@@ -232,6 +340,9 @@ nav {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+
+/* About Us */
+
 /*  */
 
 
