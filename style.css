@@ -275,7 +275,7 @@ nav {
     align-items: flex-start;
     background-color: #D9D9D9;
     float: left;
-    width: 739px;
+    width: 754px;
     height: 997px;
     font-family: monospace;
 }
@@ -290,7 +290,7 @@ nav {
     margin: 0;
     padding-left: 0;
     position: absolute;
-    right: 55px;
+    right: 50px;
     font-size: 33px;
     border: 2px black solid; 
 }
@@ -359,16 +359,27 @@ ul li ul:focus {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    
 }
 
 .first-bar h1 {
-    display: flex;
-    align-self: flex-start;
+    position: absolute;
+    top: 250px;
+    margin-left: 50px; 
+    margin-bottom: 170px;
+    right: 1000px;
+    text-align: center;
 }
 
 .first-bar p {
-    display: flex;
-    align-self: flex-end;
+    position: absolute;
+    top: 350px;
+    right: 650px;
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .Trion-Man {
@@ -380,26 +391,33 @@ ul li ul:focus {
     justify-content: center;
 }
 .Trion-Man h2 {
-    flex-wrap: wrap;
-    align-self: center;
+    position: absolute;
+    top: 960px;
     margin-left: 50px; 
     margin-bottom: 170px;
 }
 .Trion-Man p {
-    flex-wrap: wrap;
-    align-self: center;
+    position: absolute;
+    top: 989px;
     width: 800px;
     height: 100px;
     margin-left: 50px;
     margin-top: 40px;
 }
 
-.Trion-Man img {
-    align-self: flex-end;
+.Trion-CEO {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 0px;
     float: right;
-    margin: auto;
-    padding: 10px;
-    width: 30%;
+}
+.Trion-CEO img {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 420px;
+    top: 860px;
 }
 
 .Trion-Staff {
@@ -407,8 +425,9 @@ ul li ul:focus {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #404040;
+    
 }
 .Trion-Staff img {
     padding: 23px;
@@ -418,6 +437,22 @@ ul li ul:focus {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: #404040;
+    background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+.newsletter img {
+    padding: 23px;
+    width: 400px;
 }
 
 /* About Us */
