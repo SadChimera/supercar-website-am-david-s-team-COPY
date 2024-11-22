@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 1000rem;
+   
 }
 
 .navbar {
@@ -418,6 +418,7 @@ ul li ul:focus {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+}
 
 /* About Us */
 
