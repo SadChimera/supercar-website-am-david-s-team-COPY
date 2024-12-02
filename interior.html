@@ -10,16 +10,11 @@
 
 <body>
     <div class="interior-nav">
-        <div role="tab" class="exterior">
-            <span class="exterior-nav">Exterior</span>
-        </div>
-        <div role="tab" class="interior">
-            <span class="interior-nav">Interior</span>
-        </div>
-        <div role="tab" class="equipment">
-            <span class="equipment-nav">Equipment</span>
-        </div>
+        <div class="tab active" onclick="selectTab(this)">Exterior</div>
+        <div class="tab" onclick="selectTab(this)">Interior</div>
+        <div class="tab" onclick="selectTab(this)">Equipment</div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
