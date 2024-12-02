@@ -239,47 +239,182 @@ nav {
 }
 
 /* Individual tabs */
-.tab {
+/* Overall Layout */
+.layout {
+    display: flex;
+    height: 100vh; 
+    background-color: #000; 
+    color: #fff; 
+  }
+  
+  /* Left Main Content */
+  .main-content {
+    flex: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    background-color: #111; 
+  }
+  
+  .car-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+  }
+  
+  /* Right Sidebar */
+  .sidebar {
+    flex: 1; 
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #222; 
+    padding: 1rem;
+    overflow-y: auto; 
+    border-left: 1px solid #444; 
+  }
+  
+  /* Tabs Section */
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #444; 
+  }
+  
+  .tab {
     color: #ccc;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     padding: 0.5rem 1rem;
     position: relative;
-    transition: color 0.3s ease;
-}
-
-
-.tab:hover {
-    color: #fff;
-}
-
-
-.tab.active {
-    color: #fff;
-}
-
-
-.tab.active::after {
+  }
+  
+  .tab.active {
+    color: #fff; 
+  }
+  
+  .tab.active::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: white;
-    transition: all 0.3s ease;
-}
-
-
+    background-color: red;
+  }
+  
+  /* Options Section */
+  .options {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  .option {
+    border-bottom: 1px solid #444; 
+    padding: 0.5rem 0;
+    color: #ccc;
+  }
+  
+  /* Footer Button */
+  .footer-button {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .footer-button button {
+    background-color: red;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .footer-button button:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Dropdown Styling */
+  .option {
+    margin-bottom: 1rem; 
+  }
+  
+  /* Dropdown Container */
+  .option {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  /* Custom Dropdown Styles */
+  select {
+    appearance: none; 
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #222; 
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  select:hover {
+    background-color: #333; 
+    border-color: #fff;
+  }
+  
+  select:focus {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+    outline: none; 
+  }
+  
+  /* Add Custom Arrow */
+  .option::after {
+    content: '▼'; 
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none; 
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+  
+  select:hover + ::after,
+  select:focus + ::after {
+    opacity: 1; 
+  }
+  
 /* Jen's work*/
 
 /* Configuration */
+
+.msbutton {
+    display: flex;
+    list-style: none;
+}
 
 .Saver {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    list-style: none;
 }
 
 .Saver button {
@@ -394,6 +529,14 @@ ul li ul:focus {
 
 /* Car Configuration */
 
+/* Seat Configuration */
+.sidenaver {
+    
+}
+
+.side-dropdown {
+
+}
 
 /* About Us */
 .first-bar {
