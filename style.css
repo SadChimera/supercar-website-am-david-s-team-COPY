@@ -6,9 +6,7 @@
     font-style: normal;
 }
 
-body {
-    height: 1000rem;
-}
+body {}
 
 .navbar {
     display: flex;
@@ -282,6 +280,7 @@ nav {
 
 .config {
     background-color: #737373;
+    height: 50vh;
 }
 
 .configWhite {
@@ -296,6 +295,8 @@ nav {
     width: 1270px;
     height: 995px;
 }
+
+.configWhite {}
 
 .changing-thiscolor {
     display: flex;
@@ -321,7 +322,7 @@ nav {
     margin: 0;
     padding-left: 0;
     position: absolute;
-    right: 100px;
+    right: 50px;
     font-size: 33px;
     border: 2px black solid;
 }
@@ -356,7 +357,7 @@ nav {
     background: #4a4a4a;
     visibility: hidden;
     opacity: 0;
-    min-width: 9.1rem;
+    min-width: 11.23rem;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
@@ -391,16 +392,27 @@ ul li ul:focus {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+
 }
 
 .first-bar h1 {
-    display: flex;
-    align-self: flex-start;
+    position: absolute;
+    top: 250px;
+    margin-left: 50px;
+    margin-bottom: 170px;
+    right: 1000px;
+    text-align: center;
 }
 
 .first-bar p {
-    display: flex;
-    align-self: flex-end;
+    position: absolute;
+    top: 350px;
+    right: 650px;
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .Trion-Man {
@@ -416,24 +428,35 @@ ul li ul:focus {
     flex-wrap: wrap;
     align-self: center;
     margin-left: 50px;
+    position: absolute;
+    top: 960px;
+    margin-left: 50px;
     margin-bottom: 170px;
 }
 
 .Trion-Man p {
-    flex-wrap: wrap;
-    align-self: center;
+    position: absolute;
+    top: 989px;
     width: 800px;
     height: 100px;
     margin-left: 50px;
     margin-top: 40px;
 }
 
-.Trion-Man img {
-    align-self: flex-end;
+.Trion-CEO {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 0px;
     float: right;
-    margin: auto;
-    padding: 10px;
-    width: 30%;
+}
+
+.Trion-CEO img {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 420px;
+    top: 860px;
 }
 
 .Trion-Staff {
@@ -441,8 +464,9 @@ ul li ul:focus {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #404040;
+
 }
 
 .Trion-Staff img {
@@ -454,53 +478,131 @@ ul li ul:focus {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+}
 
-    /* About Us */
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: #404040;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
 
-    /*  */
+.newsletter img {
+    padding: 23px;
+    width: 400px;
+}
+
+/* About Us */
+
+/*  */
 
 
 
-    .foot {
-        background-color: #0D0D0D;
-        color: white;
-        display: flex;
-        padding-bottom: 3%;
-    }
+/* HEAD */
+.foot {
+    background-color: #0D0D0D;
+    color: white;
+    display: flex;
+    padding-bottom: 3%;
+}
 
-    .foot-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 5%;
-    }
+.foot-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
 
-    .Contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: center;
-        margin: 5%;
-    }
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 5%;
+}
 
-    .buttons {
-        border: none;
-        color: black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        background-color: white;
-    }
+.buttons {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+}
 
-    .pic1 {
-        display: flex;
-        font-size: x-large;
-        align-items: center;
+.pic1 {
+    display: flex;
+    font-size: x-large;
+    align-items: center;
 
-    }
+}
 
-    .pictures {
-        background-color: #737373;
-    }
+.pictures {
+    background-color: #737373;
+}
+
+.foot {
+    background-color: #0D0D0D;
+    color: white;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.foot-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 5%;
+}
+
+.buttons {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+}
+
+.pic1 {
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+
+}
+
+.pictures {
+    background-color: #737373;
+}
+
+.pic2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: x-large;
+    padding-top: 30px;
+
+}
+
+.imgfinal {
+    margin-right: 30px;
+    width: 50%;
+
+}
