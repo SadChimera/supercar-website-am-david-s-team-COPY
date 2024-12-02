@@ -6,13 +6,11 @@
     font-style: normal;
 }
 
-body {
-   
-}
+body {}
 
 .navbar {
     display: flex;
-    align-items: center ;
+    align-items: center;
     background-color: #A6A6A6;
     border: 2px solid black;
     padding: 0%;
@@ -70,7 +68,7 @@ a:visited {
     background-color: black;
 }
 
-.img-hero h1{
+.img-hero h1 {
     /* display: flex; */
     /* justify-self: center; */
     margin-top: 40vh;
@@ -82,7 +80,7 @@ a:visited {
 /* Davids Work */
 /* off-screen-menu */
 .off-screen-menu {
-    background-color:  lightgray;
+    background-color: lightgray;
     height: 100vh;
     width: 100%;
     max-width: 450px;
@@ -91,7 +89,7 @@ a:visited {
     right: -450px;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 3rem;
@@ -99,6 +97,7 @@ a:visited {
     opacity: .75;
 
 }
+
 .off-screen-menu.active {
     left: 0;
 }
@@ -124,6 +123,7 @@ nav {
     /* margin-left: auto; */
     position: relative;
 }
+
 .ham-menu span {
     height: 5px;
     width: 100%;
@@ -135,22 +135,28 @@ nav {
     transform: translate(-50%, -50%);
     transition: .3s ease;
 }
+
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
+
 .ham-menu span:nth-child(3) {
     top: 75%;
 }
+
 .ham-menu.active span {
     background-color: black;
 }
+
 .ham-menu.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
+
 .ham-menu.active span:nth-child(2) {
     opacity: 0;
 }
+
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
@@ -161,7 +167,7 @@ nav {
 }
 
 /* Nemesis */
-.car-hero  {
+.car-hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,12 +179,20 @@ nav {
 }
 
 @keyframes slide {
-    50% {background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);}
-    75% {background-image: url(7_25-Lux-Black-Nemesis_rr-crop-1024x682.png);}
-    100% {background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);}
+    50% {
+        background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);
+    }
+
+    75% {
+        background-image: url(7_25-Lux-Black-Nemesis_rr-crop-1024x682.png);
+    }
+
+    100% {
+        background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);
+    }
 }
 
-.car-hero-overlay{
+.car-hero-overlay {
     text-align: left;
     height: 40vh;
     color: white;
@@ -226,9 +240,7 @@ nav {
     position: relative;
 }
 
-.exterior-nav {
-
-}
+.exterior-nav {}
 
 /* Jen's work*/
 
@@ -239,6 +251,7 @@ nav {
     align-items: flex-end;
     justify-content: flex-end;
 }
+
 .Saver button {
     width: 250px;
     height: 135px;
@@ -251,6 +264,7 @@ nav {
 .config {
     background-color: #737373;
 }
+
 .configWhite {
     display: flex;
     align-items: flex-start;
@@ -258,6 +272,7 @@ nav {
     position: absolute;
     top: 10px;
 }
+
 .configWhite img {
     width: 1270px;
     height: 995px;
@@ -267,6 +282,7 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+
 .changing-thiscolor nav {
     align-items: flex-start;
     background-color: #D9D9D9;
@@ -288,7 +304,7 @@ nav {
     position: absolute;
     right: 100px;
     font-size: 33px;
-    border: 2px black solid; 
+    border: 2px black solid;
 }
 
 .changing-thiscolor li {
@@ -329,8 +345,8 @@ nav {
     display: none;
 }
 
-.changing-thiscolor ul li:hover > ul,
-ul li:focus-within > ul,
+.changing-thiscolor ul li:hover>ul,
+ul li:focus-within>ul,
 ul li ul:hover,
 ul li ul:focus {
     visibility: visible;
@@ -342,6 +358,7 @@ ul li ul:focus {
     clear: both;
     width: 100%;
 }
+
 /* Car Configuration */
 
 
@@ -375,12 +392,14 @@ ul li ul:focus {
     align-items: center;
     justify-content: center;
 }
+
 .Trion-Man h2 {
     flex-wrap: wrap;
     align-self: center;
-    margin-left: 50px; 
+    margin-left: 50px;
     margin-bottom: 170px;
 }
+
 .Trion-Man p {
     flex-wrap: wrap;
     align-self: center;
@@ -406,11 +425,13 @@ ul li ul:focus {
     justify-content: center;
     background-color: #404040;
 }
+
 .Trion-Staff img {
     padding: 23px;
     width: 400px;
-    
+
 }
+
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
@@ -422,21 +443,21 @@ ul li ul:focus {
 
 
 
-.foot{
+.foot {
     background-color: #0D0D0D;
     color: white;
     display: flex;
     padding-bottom: 3%;
 }
 
-.foot-text{
+.foot-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5%;
 }
 
-.Contact{
+.Contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,7 +465,7 @@ ul li ul:focus {
     margin: 5%;
 }
 
-.buttons{
+.buttons {
     border: none;
     color: black;
     padding: 15px 32px;
@@ -455,13 +476,27 @@ ul li ul:focus {
     background-color: white;
 }
 
-.pic1{
+.pic1 {
     display: flex;
     font-size: x-large;
     align-items: center;
     
 }
 
-.pictures{
+.pictures {
     background-color: #737373;
+}
+
+.pic2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: x-large;
+    padding-top: 30px;
+
+}
+.imgfinal{
+    margin-right: 30px;
+    width: 50%;
+    
 }
