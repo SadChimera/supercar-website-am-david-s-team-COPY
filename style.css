@@ -175,7 +175,12 @@ nav {
     background-size: cover;
     background-color: #737373;
     height: 80vh;
-    animation: slide 20s ease-in infinite;
+    animation: 20s ease-in infinite;
+
+}
+.button20smth{
+    display: flex;
+    align-self: flex-end;
 }
 
 @keyframes slide {
@@ -213,9 +218,16 @@ nav {
     justify-content: center;
     color: white;
     background-color: #404040;
-    padding: 3%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
+.text-thats-weird{
+    padding-top: 20px;
+    font-size: x-large;
+    padding-left: 20px;
+}
 /* Config interior */
 .interior-nav {
     display: flex;
@@ -586,6 +598,10 @@ ul li ul:focus {
     font-size: x-large;
     align-items: center;
 
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-left: 20px;
+    
 }
 
 .pictures {
@@ -595,8 +611,7 @@ ul li ul:focus {
 .pic2 {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    font-size: x-large;
+    font-size: xx-large;
     padding-top: 30px;
 
 }
@@ -606,3 +621,14 @@ ul li ul:focus {
     width: 50%;
 
 }
+    
+
+.nemisis-img1{
+    display: flex;
+    padding-left: 0;
+}
+
+.firstimage{
+    max-width: 49.5%;
+}
+
