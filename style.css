@@ -234,10 +234,16 @@ nav {
 
 /* Configuration */
 
+.msbutton {
+    display: flex;
+    list-style: none;
+}
+
 .Saver {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    list-style: none;
 }
 .Saver button {
     width: 250px;
@@ -348,6 +354,14 @@ ul li ul:focus {
 }
 /* Car Configuration */
 
+/* Seat Configuration */
+.sidenaver {
+    
+}
+
+.side-dropdown {
+
+}
 
 /* About Us */
 .first-bar {
