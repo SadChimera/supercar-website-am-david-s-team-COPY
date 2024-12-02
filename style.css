@@ -397,6 +397,8 @@ nav {
   select:focus + ::after {
     opacity: 1; 
   }
+
+  
   
 /* Jen's work*/
 
