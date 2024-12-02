@@ -175,7 +175,12 @@ nav {
     background-size: cover;
     background-color: #737373;
     height: 80vh;
-    animation: slide 20s ease-in infinite;
+    animation: 20s ease-in infinite;
+
+}
+.button20smth{
+    display: flex;
+    align-self: flex-end;
 }
 
 @keyframes slide {
@@ -213,9 +218,16 @@ nav {
     justify-content: center;
     color: white;
     background-color: #404040;
-    padding: 3%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
+.text-thats-weird{
+    padding-top: 20px;
+    font-size: x-large;
+    padding-left: 20px;
+}
 /* Config interior */
 
 .interior-nav {
@@ -409,15 +421,9 @@ ul li ul:focus {
 }
 
 .Trion-Man h2 {
-<<<<<<< HEAD
     flex-wrap: wrap;
     align-self: center;
     margin-left: 50px;
-=======
-    position: absolute;
-    top: 960px;
-    margin-left: 50px; 
->>>>>>> bae36c54ab6ad9e0f4c3f3dd8cc2a0199930b4e4
     margin-bottom: 170px;
 }
 
@@ -523,8 +529,9 @@ ul li ul:focus {
 
 .pic1 {
     display: flex;
-    font-size: x-large;
-    align-items: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-left: 20px;
     
 }
 
@@ -535,13 +542,23 @@ ul li ul:focus {
 .pic2{
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    font-size: x-large;
+    font-size: xx-large;
     padding-top: 30px;
 
 }
 .imgfinal{
     margin-right: 30px;
-    width: 50%;
+    
+
     
 }
+
+.nemisis-img1{
+    display: flex;
+    padding-left: 0;
+}
+
+.firstimage{
+    max-width: 49.5%;
+}
+
