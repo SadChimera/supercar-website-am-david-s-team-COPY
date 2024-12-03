@@ -29,6 +29,7 @@ body {
 .list {
     display: flex;
     list-style: none;
+    color: white;
 }
 
 .list2 {
@@ -531,26 +532,25 @@ ul li ul:focus {
 
 /* Car Configuration */
 
-/* Seat Configuration */
-.sidenaver {
-    
-}
-
-.side-dropdown {
-
-}
-
 /* About Us */
+
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
 .first-bar {
     display: flex;
     width: 2006px;
-    height: 700px;
-    background-color: #737373;
-    border: 2px solid #c3c3c3;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-
+    background-image: url("KS_config_hanger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 940px 700px;
+    background-position-x: 50%;
 }
 
 .first-bar h1 {
@@ -576,7 +576,7 @@ ul li ul:focus {
 .Trion-Man {
     width: 2009px;
     height: 700px;
-    background-color: #737373;
+    background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -587,7 +587,7 @@ ul li ul:focus {
     align-self: center;
     margin-left: 50px;
     position: absolute;
-    top: 960px;
+    top: 123%;
     margin-left: 50px;
     margin-bottom: 170px;
 }
@@ -598,7 +598,7 @@ ul li ul:focus {
     width: 800px;
     height: 100px;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 
 .Trion-CEO {
@@ -725,7 +725,7 @@ ul li ul:focus {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin: 5%;
+    margin-top: 8%;
 }
 
 .buttons {
@@ -754,15 +754,14 @@ ul li ul:focus {
 
 .pic2 {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
     font-size: xx-large;
     padding-top: 30px;
-
+    flex-direction: row-reverse;
 }
 
 .imgfinal {
-    margin-right: 30px;
-    max-width: 50%;
+
 
 }
     
@@ -780,6 +779,23 @@ ul li ul:focus {
 }
 .img50{
     display: flex;
-    margin-left: 30%;
+    margin-left: 44%;
+    height: 125px;
+    margin-top: 10%;
+}
 
+.big-foot{
+    display: flex;
+    font-size: xx-large;
+    
+}
+
+.more-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-left: 2%;
+    margin-bottom: 0%;
+    font-size: xx-large;
 }
