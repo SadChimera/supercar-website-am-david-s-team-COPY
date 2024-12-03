@@ -724,7 +724,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin: 5%;
+    margin-top: 8%;
 }
 
 .buttons {
@@ -753,15 +753,14 @@ body, html {
 
 .pic2 {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
     font-size: xx-large;
     padding-top: 30px;
-
+    flex-direction: row-reverse;
 }
 
 .imgfinal {
-    margin-right: 30px;
-    max-width: 50%;
+
 
 }
     
@@ -779,6 +778,23 @@ body, html {
 }
 .img50{
     display: flex;
-    margin-left: 30%;
+    margin-left: 44%;
+    height: 125px;
+    margin-top: 10%;
+}
 
+.big-foot{
+    display: flex;
+    font-size: xx-large;
+    
+}
+
+.more-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-left: 2%;
+    margin-bottom: 0%;
+    font-size: xx-large;
 }
