@@ -338,7 +338,7 @@ nav {
   }
   
   .footer-button button:hover {
-    background-color: #ff3333;
+    background-color: white;
   }
   
   /* Dropdown Styling */
@@ -378,8 +378,7 @@ nav {
   }
   
   select:focus {
-    border-color: red;
-    box-shadow: 0 0 5px red;
+    border-color: white;
     outline: none; 
   }
   
