@@ -531,26 +531,16 @@ ul li ul:focus {
 
 /* Car Configuration */
 
-/* Seat Configuration */
-.sidenaver {
-    
-}
-
-.side-dropdown {
-
-}
-
 /* About Us */
 .first-bar {
     display: flex;
     width: 2006px;
     height: 700px;
-    background-color: #737373;
     border: 2px solid #c3c3c3;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-
+    background-image: ;
 }
 
 .first-bar h1 {
