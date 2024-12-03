@@ -533,15 +533,24 @@ ul li ul:focus {
 /* Car Configuration */
 
 /* About Us */
+
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
 .first-bar {
     display: flex;
     width: 2006px;
-    height: 700px;
-    border: 2px solid #c3c3c3;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background-image: ;
+    background-image: url("KS_config_hanger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 940px 700px;
+    background-position-x: 50%;
 }
 
 .first-bar h1 {
@@ -567,7 +576,7 @@ ul li ul:focus {
 .Trion-Man {
     width: 2009px;
     height: 700px;
-    background-color: #737373;
+    background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -578,7 +587,7 @@ ul li ul:focus {
     align-self: center;
     margin-left: 50px;
     position: absolute;
-    top: 960px;
+    top: 123%;
     margin-left: 50px;
     margin-bottom: 170px;
 }
@@ -589,7 +598,7 @@ ul li ul:focus {
     width: 800px;
     height: 100px;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 
 .Trion-CEO {
