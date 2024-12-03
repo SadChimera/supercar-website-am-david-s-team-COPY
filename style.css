@@ -6,7 +6,9 @@
     font-style: normal;
 }
 
-body {}
+body {
+    width: 100%;
+}
 
 .navbar {
     display: flex;
@@ -133,6 +135,7 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease;
+    margin-left: 10px;
 }
 
 .ham-menu span:nth-child(1) {
@@ -397,6 +400,8 @@ nav {
   select:focus + ::after {
     opacity: 1; 
   }
+
+  
   
 /* Jen's work*/
 
@@ -727,12 +732,10 @@ ul li ul:focus {
 
 .pic1 {
     display: flex;
-    font-size: x-large;
     align-items: center;
-
     font-size: xx-large;
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
     
 }
 
@@ -750,7 +753,7 @@ ul li ul:focus {
 
 .imgfinal {
     margin-right: 30px;
-    width: 50%;
+    max-width: 50%;
 
 }
     
@@ -761,6 +764,13 @@ ul li ul:focus {
 }
 
 .firstimage{
-    max-width: 49.5%;
-}
 
+}
+.texthome{
+    
+}
+.img50{
+    display: flex;
+    margin-left: 30%;
+
+}
