@@ -586,7 +586,7 @@ body, html {
     align-self: center;
     margin-left: 50px;
     position: absolute;
-    top: 960px;
+    top: 123%;
     margin-left: 50px;
     margin-bottom: 170px;
 }
@@ -597,7 +597,7 @@ body, html {
     width: 800px;
     height: 100px;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 
 .Trion-CEO {
