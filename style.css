@@ -536,11 +536,12 @@ ul li ul:focus {
     display: flex;
     width: 2006px;
     height: 700px;
-    border: 2px solid #c3c3c3;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background-image: ;
+    background-image: url("black-ops1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .first-bar h1 {
@@ -566,7 +567,7 @@ ul li ul:focus {
 .Trion-Man {
     width: 2009px;
     height: 700px;
-    background-color: #737373;
+    background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
