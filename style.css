@@ -532,16 +532,24 @@ ul li ul:focus {
 /* Car Configuration */
 
 /* About Us */
+
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
 .first-bar {
     display: flex;
     width: 2006px;
-    height: 700px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     background-image: url("KS_config_hanger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 940px 700px;
+    background-position-x: 50%;
 }
 
 .first-bar h1 {
