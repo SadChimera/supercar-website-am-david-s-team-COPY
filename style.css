@@ -29,7 +29,6 @@ body {
 .list {
     display: flex;
     list-style: none;
-    color: white;
 }
 
 .list2 {
@@ -303,7 +302,7 @@ nav {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: white;
+    background-color: red;
   }
   
   /* Options Section */
@@ -338,7 +337,7 @@ nav {
   }
   
   .footer-button button:hover {
-    background-color: white;
+    background-color: #ff3333;
   }
   
   /* Dropdown Styling */
@@ -346,6 +345,7 @@ nav {
     margin-bottom: 1rem; 
   }
   
+  /* Dropdown Container */
   .option {
     position: relative;
     margin-bottom: 1.5rem;
@@ -358,7 +358,7 @@ nav {
     color: #ccc;
   }
   
-  /* Dropdown Styles */
+  /* Custom Dropdown Styles */
   select {
     appearance: none; 
     width: 100%;
@@ -378,10 +378,12 @@ nav {
   }
   
   select:focus {
-    border-color: white;
+    border-color: red;
+    box-shadow: 0 0 5px red;
     outline: none; 
   }
   
+  /* Add Custom Arrow */
   .option::after {
     content: '▼'; 
     position: absolute;
@@ -538,15 +540,13 @@ body, html {
 
 .first-bar {
     display: flex;
-    width: 2006px;
     height: 100%;
-    display: flex;
     flex-wrap: wrap;
     align-content: center;
     background-image: url("KS_config_hanger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 940px 700px;
+    background-size: 2001px 1070px;
     background-position-x: 50%;
 }
 
@@ -562,7 +562,7 @@ body, html {
 .first-bar p {
     position: absolute;
     top: 350px;
-    right: 650px;
+    right: 600px;
     width: 800px;
     height: 100px;
     margin-left: 50px;
@@ -571,7 +571,6 @@ body, html {
 }
 
 .Trion-Man {
-    width: 2009px;
     height: 900px;
     background-color: #404040;
     flex-wrap: wrap;
@@ -601,11 +600,11 @@ body, html {
     word-spacing: 8px;
 }
 
-.Trion-Man p {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1.2s ease-out;
-}
+/* Animation thingy */
+
+
+
+/* Animation thingy */
 
 .Trion-CEO {
     display: flex;
@@ -617,9 +616,9 @@ body, html {
 
 .Trion-CEO img {
     height: 900px;
-    width: 850px;
+    width: 880px;
     position: absolute;
-    right: 150px;
+    right: 0px;
     top: 1117px;
 }
 
@@ -642,6 +641,14 @@ body, html {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+}
+
+.brett {
+    
+}
+
+.brett p {
+
 }
 
 .newsletter {
