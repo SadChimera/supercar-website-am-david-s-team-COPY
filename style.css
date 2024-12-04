@@ -574,7 +574,7 @@ body, html {
 
 .Trion-Man {
     width: 2009px;
-    height: 700px;
+    height: 900px;
     background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
@@ -584,20 +584,29 @@ body, html {
 .Trion-Man h2 {
     flex-wrap: wrap;
     align-self: center;
-    margin-left: 50px;
     position: absolute;
-    top: 123%;
-    margin-left: 50px;
+    left: 50px;
+    top: 120%;
+    margin-left: 90px;
     margin-bottom: 170px;
+    color: white;
 }
 
 .Trion-Man p {
     position: absolute;
-    top: 989px;
+    top: 75%;
     width: 800px;
     height: 100px;
-    margin-left: 50px;
-    margin-top: 20%;
+    margin-left: 140px;
+    margin-top: 32%;
+    color: white;
+    word-spacing: 8px;
+}
+
+.Trion-Man p {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.2s ease-out;
 }
 
 .Trion-CEO {
@@ -609,11 +618,11 @@ body, html {
 }
 
 .Trion-CEO img {
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 850px;
     position: absolute;
-    right: 420px;
-    top: 860px;
+    right: 150px;
+    top: 1117px;
 }
 
 .Trion-Staff {
