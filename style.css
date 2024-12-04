@@ -29,6 +29,7 @@ body {
 .list {
     display: flex;
     list-style: none;
+    color: white;
 }
 
 .list2 {
@@ -302,7 +303,7 @@ nav {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: red;
+    background-color: white;
   }
   
   /* Options Section */
@@ -337,7 +338,7 @@ nav {
   }
   
   .footer-button button:hover {
-    background-color: #ff3333;
+    background-color: white;
   }
   
   /* Dropdown Styling */
@@ -345,7 +346,6 @@ nav {
     margin-bottom: 1rem; 
   }
   
-  /* Dropdown Container */
   .option {
     position: relative;
     margin-bottom: 1.5rem;
@@ -358,7 +358,7 @@ nav {
     color: #ccc;
   }
   
-  /* Custom Dropdown Styles */
+  /* Dropdown Styles */
   select {
     appearance: none; 
     width: 100%;
@@ -378,12 +378,10 @@ nav {
   }
   
   select:focus {
-    border-color: red;
-    box-shadow: 0 0 5px red;
+    border-color: white;
     outline: none; 
   }
   
-  /* Add Custom Arrow */
   .option::after {
     content: '▼'; 
     position: absolute;
