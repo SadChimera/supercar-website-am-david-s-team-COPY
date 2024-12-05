@@ -634,6 +634,8 @@ img {vertical-align: middle;}
     height: 100%;
     flex-wrap: wrap;
     align-content: center;
+    background-color: grey;
+    height: 800px;
 }
 
 .first-bar h1 {
@@ -657,7 +659,7 @@ img {vertical-align: middle;}
 }
 
 .Trion-Man {
-    height: 900px;
+    height: 1250px;
     background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
@@ -704,7 +706,7 @@ img {vertical-align: middle;}
     height: 900px;
     width: 880px;
     position: absolute;
-    right: 0px;
+    right: 40px;
     top: 1117px;
 }
 
@@ -714,7 +716,7 @@ img {vertical-align: middle;}
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #2d2d2d;
+    background-color: #363636;
     height: 1700px;
 
 }
