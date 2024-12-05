@@ -13,7 +13,6 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #a6a6a6;
     border: 2px solid black;
     padding: 0%;
 }
@@ -71,10 +70,10 @@ a:visited {
     justify-content: center;
     background-image: url(7_25-Lux-Black-Nemesis_fr34-1024x575.png);
     background-size: cover;
-    height: 88vh;
-    padding-bottom: 70px;
+    height: 92vh;
     color: white;
     background-color: black;
+    background-attachment: fixed;
 }
 
 .img-hero h1 {
@@ -135,7 +134,7 @@ nav {
 .ham-menu span {
     height: 5px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -867,9 +866,6 @@ html {
     background-color: white;
 }
 
-.pictures {
-    background-color: #737373;
-}
 
 .foot-text {
     display: flex;
@@ -879,25 +875,25 @@ html {
 }
 .pic1 {
     display: flex;
-    align-items: center;
-    font-size: xx-large;
-    padding-top: 30px;
+    font-size: x-large;
     padding-left: 10px;
-    
-    
+    padding-bottom: 20vh;
+    margin-right: 50px;
 }
 
 .pictures {
-    background-color: #737373;
+    object-fit: cover;
+    padding-top: 32px;
+    background-color: #404040;
 }
 
 .pic2 {
     display: flex;
-    align-items: center;
-    font-size: xx-large;
+    font-size: x-large;
     padding-top: 30px;
     flex-direction: row-reverse;
-    
+    padding-bottom: 10vh;
+    margin-left: 50px;
 }
 
 .nemisis-img1{
@@ -946,3 +942,20 @@ html {
     100% { transform: rotate(360deg); }
   }
   */
+.firstimage{
+
+}
+
+.texthome{
+margin-top: 120px;
+flex-wrap: wrap;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+.texthome2{
+    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    }
