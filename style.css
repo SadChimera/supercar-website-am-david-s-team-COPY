@@ -633,6 +633,8 @@ img {vertical-align: middle;}
     height: 100%;
     flex-wrap: wrap;
     align-content: center;
+    background-color: grey;
+    height: 900px;
 }
 
 .first-bar h1 {
@@ -642,6 +644,7 @@ img {vertical-align: middle;}
     margin-bottom: 170px;
     right: 1000px;
     text-align: center;
+    color: white;
 }
 
 .first-bar p {
@@ -653,10 +656,12 @@ img {vertical-align: middle;}
     margin-left: 50px;
     margin-top: 40px;
     text-align: center;
+    color: white;
+    word-spacing: 8px;
 }
 
 .Trion-Man {
-    height: 900px;
+    height: 1250px;
     background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
@@ -703,8 +708,8 @@ img {vertical-align: middle;}
     height: 900px;
     width: 880px;
     position: absolute;
-    right: 0px;
-    top: 1117px;
+    right: 40px;
+    top: 1090px;
 }
 
 .Trion-Staff {
@@ -713,19 +718,19 @@ img {vertical-align: middle;}
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #404040;
+    background-color: #363636;
+    height: 2200px;
 
 }
 
 .Trion-Staff img {
-    padding: 23px;
+    padding: 0px;
     width: 400px;
-
 }
 
-.Trion-Staff h3 {
-    align-self: flex-start;
+h3 {
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -738,10 +743,63 @@ html {
   }
   
 .romeo {
-    float: left;
-  width: 33.3%;
+  float: left;
+  width: 21%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 0 0px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 360px;
+}
+.romeo2 {
+    float: left;
+    width: 21%;
+    margin-bottom: 16px;
+    padding: 0 0px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 135px;
+  }
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contain {
+    padding: 0 16px;
+}
+
+.contain::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: rgb(49, 49, 49)
+}
+
+.buttone {
+    border: none; 
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttone:hover {
+    background-color: #bababa;
 }
 
 .newsletter {
@@ -750,10 +808,10 @@ html {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #404040;
-    background-color: #333;
+    background-color: #2a2a2a;
     overflow: auto;
     white-space: nowrap;
+    height: 1000px;
 }
 
 .newsletter img {
