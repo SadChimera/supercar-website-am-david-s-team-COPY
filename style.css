@@ -378,7 +378,7 @@ nav {
   }
   
   select:focus {
-    border-color: red;
+    border-color: white;
     box-shadow: 0 0 5px red;
     outline: none; 
   }
