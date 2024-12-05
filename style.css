@@ -193,6 +193,17 @@ nav {
     align-self: flex-end;
 }
 
+.nemesisbutton{
+display: flex;
+align-self: flex-end;
+margin-left: 160vh;
+margin-top: 60vh;
+padding: 15px 32px;
+border: none;
+font-size: 25px;
+display: block;
+}
+
 @keyframes slide {
     50% {
         background-image: url(7_25-Lux-Black-Nemesis_rr-1024x575\ \(1\).png);
@@ -312,6 +323,7 @@ nav {
     height: 3px;
     background-color: white;
   }
+  
   
   /* Options Section */
   .options {
@@ -800,6 +812,7 @@ html {
     padding-top: 30px;
     padding-left: 10px;
     
+    
 }
 
 .pictures {
@@ -812,6 +825,7 @@ html {
     font-size: xx-large;
     padding-top: 30px;
     flex-direction: row-reverse;
+    
 }
 
 .nemisis-img1{
@@ -843,6 +857,8 @@ html {
     padding-right: 0;
     margin-right: 0;
 }
+
+
 /*loading screen
 .loader {
     border: 16px solid #f3f3f3; 
