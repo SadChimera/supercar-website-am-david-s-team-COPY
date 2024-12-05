@@ -695,7 +695,8 @@ img {vertical-align: middle;}
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #404040;
+    background-color: #2d2d2d;
+    height: 1700px;
 
 }
 
@@ -705,9 +706,9 @@ img {vertical-align: middle;}
 
 }
 
-.Trion-Staff h3 {
-    align-self: flex-start;
+h3 {
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -720,10 +721,52 @@ html {
   }
   
 .romeo {
-    float: left;
-  width: 33.3%;
+  float: left;
+  width: 21%;
   margin-bottom: 16px;
   padding: 0 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contain {
+    padding: 0 16px;
+}
+
+.contain::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: rgb(49, 49, 49)
+}
+
+.buttone {
+    border: none; 
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttone:hover {
+    background-color: #bababa;
 }
 
 .newsletter {
@@ -732,10 +775,10 @@ html {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #404040;
-    background-color: #333;
+    background-color: #2a2a2a;
     overflow: auto;
     white-space: nowrap;
+    height: 1000px;
 }
 
 .newsletter img {
