@@ -8,3 +8,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
+    <div class="layout">
+        <div class="main-content">
+            <img src="car-image.jpg" alt="Car" class="car-image" />
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar">
+            <div class="tabs">
+                <div class="tab active" onclick="selectTab(this)">Exterior</div>
+                <div class="tab" onclick="selectTab(this)">Interior</div>
+                <div class="tab" onclick="selectTab(this)">Equipment</div>
+            </div>
+
+            <!-- Options Section -->
+            <div class="options">
+                <div class="option">
+                    <label for="door-numbers">Door Numbers:</label>
+                    <select id="door-numbers">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label for="livery">Color</label>
+                    <select id="livery">
+                        <option value="option1">Matte Black</option>
+                        <option value="option2">Wite</option>
+                        <option value="option3">Carbon Fiber</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label for="rims">Rims:</label>
+                    <select id="rims">
+                        <option value="option1">Standard Rims</option>
+                        <option value="option2">Carbon Fiber Rims</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label for="tyres">Tires:</label>
+                    <select id="tyres">
+                        <option value="option1">Sport Tires</option>
+                        <option value="option2">Off-road Tires</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label for="calipers">Calipers:</label>
+                    <select id="calipers">
+                        <option value="option1">Standard Calipers</option>
+                        <option value="option2">Red Calipers</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label for="carbon-fibre">Carbon Fibre Details:</label>
+                    <select id="carbon-fibre">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="footer-button">
+                <button>Save & Enquire</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>

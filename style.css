@@ -30,8 +30,6 @@ body {
     display: flex;
     list-style: none;
     color: white;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .list2 {
@@ -347,7 +345,7 @@ nav {
   }
   
   .footer-button button:hover {
-    background-color: white;
+    background-color: #ff3333;
   }
   
   /* Dropdown Styling */
@@ -355,6 +353,7 @@ nav {
     margin-bottom: 1rem; 
   }
   
+  /* Dropdown Container */
   .option {
     position: relative;
     margin-bottom: 1.5rem;
@@ -367,12 +366,12 @@ nav {
     color: #ccc;
   }
   
-  /* Dropdown Styles */
+  /* Custom Dropdown Styles */
   select {
     appearance: none; 
     width: 100%;
     padding: 0.75rem 1rem;
-    background-color: #222; 
+    background-color: #404040; 
     color: #fff;
     border: 1px solid #444;
     border-radius: 5px;
@@ -390,6 +389,7 @@ nav {
     border-color: white;
     outline: none; 
   }
+  
   
   .option::after {
     content: '▼'; 
@@ -545,18 +545,83 @@ body, html {
     margin: 0;
 }
 
+/* Slideshow *
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    top: -50px;
+  }
+
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+/* Slideshow */
+
 .first-bar {
     display: flex;
-    width: 2006px;
     height: 100%;
-    display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background-image: url("KS_config_hanger.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 940px 700px;
-    background-position-x: 50%;
 }
 
 .first-bar h1 {
@@ -571,7 +636,7 @@ body, html {
 .first-bar p {
     position: absolute;
     top: 350px;
-    right: 650px;
+    right: 600px;
     width: 800px;
     height: 100px;
     margin-left: 50px;
@@ -580,8 +645,7 @@ body, html {
 }
 
 .Trion-Man {
-    width: 2009px;
-    height: 700px;
+    height: 900px;
     background-color: #404040;
     flex-wrap: wrap;
     align-items: center;
@@ -591,21 +655,30 @@ body, html {
 .Trion-Man h2 {
     flex-wrap: wrap;
     align-self: center;
-    margin-left: 50px;
     position: absolute;
-    top: 123%;
-    margin-left: 50px;
+    left: 50px;
+    top: 120%;
+    margin-left: 90px;
     margin-bottom: 170px;
+    color: white;
 }
 
 .Trion-Man p {
     position: absolute;
-    top: 989px;
+    top: 75%;
     width: 800px;
     height: 100px;
-    margin-left: 50px;
-    margin-top: 20%;
+    margin-left: 140px;
+    margin-top: 32%;
+    color: white;
+    word-spacing: 8px;
 }
+
+/* Animation thingy */
+
+
+
+/* Animation thingy */
 
 .Trion-CEO {
     display: flex;
@@ -616,11 +689,11 @@ body, html {
 }
 
 .Trion-CEO img {
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 880px;
     position: absolute;
-    right: 420px;
-    top: 860px;
+    right: 0px;
+    top: 1117px;
 }
 
 .Trion-Staff {
@@ -642,6 +715,22 @@ body, html {
 .Trion-Staff h3 {
     align-self: flex-start;
     justify-content: center;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+.romeo {
+    float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
 .newsletter {
