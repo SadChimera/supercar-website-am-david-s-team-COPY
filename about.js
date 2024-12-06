@@ -10,7 +10,7 @@ function fadeintext(props) {
     }, []);
     return (
       <div
-        className={`fade-in-text ${isVisible ? 'is-visible' : ''}`}
+        className={`fade-in-text' ${isVisible ? 'is-visible' : ''}`}
         ref={domRef}
       >
         {props.children}
