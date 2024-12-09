@@ -904,7 +904,7 @@ html {
 }
 .img50{
     display: flex;
-    margin-left: 25%;
+    margin-left: 15%;
     height: 175px;
     margin-top: 7%;
 }
@@ -960,4 +960,10 @@ padding: 100px;
     .weird-foot{
         display: flex;
         flex-direction: row;
+    }
+
+    .language-translator{
+        display: flex;
+        margin-left: 170px;
+        margin-top: 170px;
     }
