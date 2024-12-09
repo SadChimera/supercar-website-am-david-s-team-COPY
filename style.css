@@ -24,7 +24,6 @@ body {
     justify-content: center;
     margin-left: 29%;
 }
-
 .list {
     display: flex;
     list-style: none;
@@ -451,6 +450,12 @@ display: block;
 .config {
     background-color: #737373;
     height: 50vh;
+}
+.config-button{
+    color: black;
+}
+.newbutton{
+    color: black;
 }
 
 .configWhite {
@@ -923,22 +928,6 @@ html {
     margin-right: 0;
 }
 
-
-/*loading screen
-.loader {
-    border: 16px solid #f3f3f3; 
-    border-top: 16px solid #3498db; 
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  */
 .firstimage{
 
 }
@@ -966,4 +955,9 @@ padding: 100px;
         max-width: 100px;
         margin: 0%;
         padding: 0%;
+    }
+
+    .weird-foot{
+        display: flex;
+        flex-direction: row;
     }
