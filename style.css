@@ -850,6 +850,7 @@ html {
     width: 20%;
     height: 10%;
     background-color: #404040;
+    color: white;
 }
 .Dealerships label {
     font-size: 20px;
@@ -862,7 +863,15 @@ html {
     top: 20px;
 }
 
-.Dealerships submite 
+.call {
+    position: relative;
+    left: 15%;
+}
+
+.sub {
+    width: 52%;
+    
+}
 
 /* Dealerships */
 
