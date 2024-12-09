@@ -870,7 +870,10 @@ html {
 
 .sub {
     width: 52%;
-    
+}
+
+.Dealerships h2 {
+    position: relative;
 }
 
 /* Dealerships */
