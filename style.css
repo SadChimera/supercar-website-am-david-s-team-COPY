@@ -838,7 +838,7 @@ html {
     justify-content: center;
     align-self: center;
     margin: 5%;
-    margin-left: 0;
+    margin-left: 20px;
 }
 .buttons:hover{
     color: grey;
@@ -862,6 +862,7 @@ html {
     flex-direction: column;
     justify-content: center;
     margin: 4%;
+    
 }
 .pic1 {
     display: flex;
@@ -941,7 +942,7 @@ padding: 100px;
 
     .insta{
         display: flex;
-        max-width: 100px;
+
         margin: 0%;
         padding: 0%;
     }
@@ -954,6 +955,6 @@ padding: 100px;
     .language-translator{
         display: flex;
         margin-left: 170px;
-        margin-top: 170px;
+        margin-top: 240px;
     }
 
