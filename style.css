@@ -563,77 +563,6 @@ body, html {
     margin: 0;
 }
 
-/* Slideshow *
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    position: relative;
-    top: -50px;
-  }
-
-  
-.active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-
-
-
-/* Slideshow */
 
 .first-bar {
     display: flex;
@@ -832,25 +761,33 @@ html {
     background-color: #737373;
 }
 
+
 .Dealerships {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    left: 45%;
-    top: 10%;
+    right: 2vh;
 }
 
 .Dealerships button {
-    width: 20%;
+    align-self: flex-start;
+    width: 405px;
     height: 50px;
     position: relative;
-    right: 15%;
+    left: 5vh;
+    top: 15rem;
     font-size: 28px;
-}
-
-.Dealerships input {
-    width: 20%;
-    height: 10%;
     background-color: #404040;
     color: white;
+}
+
+
+.Dealerships input {
+    width: 125%;
+    background-color: #404040;
+    color: white;
+    font-size: 25px;
 }
 .Dealerships label {
     font-size: 20px;
@@ -859,21 +796,27 @@ html {
 
 .deale {
     position: relative;
-    right: 15%;
-    top: 20px;
-}
-
-.call {
-    position: relative;
-    left: 15%;
+    right: 47.3rem;
+    top: 20rem;
 }
 
 .sub {
     width: 52%;
+    height: 500px;
 }
 
 .Dealerships h2 {
+    align-self: flex-start;
     position: relative;
+    left: 30%;
+    top: 60px;
+    font-size: 50px;
+}
+
+.LastName {
+    position: relative;
+    left: 130%;
+    bottom: 86px;
 }
 
 /* Dealerships */
