@@ -633,14 +633,16 @@ body, html {
     justify-content: flex-end;
     height: 0px;
     float: right;
+    padding: 2px;
 }
 
 .Trion-CEO img {
-    height: 900px;
-    width: 880px;
+    height: auto;
+    max-width: 100%;
     position: absolute;
     right: 40px;
     top: 1130px;
+    padding: 2px;
 }
 
 .Trion-Staff {
@@ -673,23 +675,31 @@ html {
     box-sizing: inherit;
   }
   
+[class*="col"] {
+    width: 100%;
+    float: left;
+}
+  
 .romeo {
   float: left;
-  width: 21%;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 16px;
-  padding: 0 0px;
+  padding: 1 0px;
   background-color: rgb(255, 255, 255);
   position: relative;
   bottom: 360px;
 }
 .romeo2 {
     float: left;
-    width: 21%;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 16px;
     padding: 0 0px;
     background-color: rgb(255, 255, 255);
     position: relative;
-    bottom: 135px;
+    bottom: 370px;
+
   }
 
 @media screen and (max-width: 650px) {
@@ -749,6 +759,7 @@ html {
     padding: 23px;
     width: 400px;
 }
+
 
 /* About Us */
 
