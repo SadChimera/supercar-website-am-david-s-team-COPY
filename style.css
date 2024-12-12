@@ -940,16 +940,18 @@ flex-wrap: wrap;
 margin-left: 130px;
 margin-right: 70px;
 background-color: #737373;
-padding: 100px;
+padding: 85px;
+font-size: 27px;
 }
 
 .texthome2{
-    margin-top: 30px;
+    margin-top: 20px;
     flex-wrap: wrap;
     margin-left: 70px;
     margin-right: 120px;
-    padding: 100px;
+    padding: 85px;
     background-color: #737373;
+    font-size: 27px;
     }
 
     .insta{
