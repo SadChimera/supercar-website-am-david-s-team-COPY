@@ -13,7 +13,6 @@ document.querySelectorAll('.options select').forEach(select => {
   });
 });
 
-
 function selectTab(selectedTab) {
 
   const tabs = document.querySelectorAll('.tab');
