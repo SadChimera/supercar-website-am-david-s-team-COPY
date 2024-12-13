@@ -1057,7 +1057,7 @@ html {
     display: flex;
     margin-left: 15%;
     height: 175px;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .big-foot {
@@ -1103,7 +1103,6 @@ html {
 
 .insta {
     display: flex;
-
     margin: 0%;
     padding: 0%;
 }
