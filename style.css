@@ -654,17 +654,14 @@ html {
 
 .Trion-Staff {
     background-color: #363636;
-    height: 1300px;
+    height: 1700px;
+    max-width: 100%;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-around;
+    position: relative;
+    top: 240px;
 }
-
 
 .Trion-Staff img {
     padding: 0px;
@@ -693,21 +690,21 @@ html {
 }
 
 .romeo {
-    position: relative;
-    left: 5px;
-    float: right;
-    width: 23%;
-    margin-bottom: 16px;
-    padding: 0 0px;
-    background-color: #ffffff;
+    float: left;
+    width: 25%;
+    margin-bottom: 12px;
+    padding: 0 16px;
+    background-color: #363636;
+    color: #ffffff;
 }
 
 .romeo2 {
-    float: right;
-    width: 23%;
-    margin-bottom: 16px;
-    padding: 0 0px;
-    background-color: #ffffff;
+    float: left;
+    width: 25%;
+    margin-bottom: 12px;
+    padding: 0 16px;
+    background-color: #363636;
+    color: white;
 }
 
 
@@ -720,7 +717,7 @@ html {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
 }
 
 .contain {
@@ -735,7 +732,7 @@ html {
 }
 
 .title {
-    color: #313131
+    color: #ffffff
 }
 
 .buttone {
@@ -758,7 +755,7 @@ html {
 
 .background {
     background-color: #262626;
-    height: 1000px;
+    height: 1300px;
 }
 
 
@@ -766,7 +763,7 @@ html {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    top: 200px;
+    top: 300px;
 }
 
 .mySlides {
@@ -804,7 +801,7 @@ html {
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 9px;
     width: 100%;
     text-align: center;
 }
@@ -827,6 +824,14 @@ html {
     top: 1;
 }
 
+.numbertext-5 {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 1;
+}
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -837,9 +842,11 @@ html {
     display: inline-block;
     transition: background-color 0.6s ease;
     position: relative;
-    top: 200px;
+    top: 300px;
 }
 
+
+.active, .dot:hover {
 .active,
 .dot:hover {
     background-color: #717171;
@@ -870,6 +877,7 @@ html {
 
 .Deal {
     background-color: #737373;
+    height: 100vh;
 }
 
 
@@ -935,18 +943,21 @@ html {
 }
 
 .email {
+    width: 125%;
     position: relative;
     right: 0%;
     bottom: 86px;
 }
 
 .Phone {
+    width: 125%;
     position: relative;
     right: 0%;
     bottom: 86px;
 }
 
 .region {
+    width: 125%;
     position: relative;
     right: 0%;
     bottom: 86px;
@@ -965,19 +976,23 @@ html {
 }
 
 .zip {
+    width: 125%;
     position: relative;
     right: 0%;
     bottom: 170px;
 }
 
 .question {
+    width: 125%;
     position: relative;
     right: 0%;
     bottom: 170px;
 }
 
-
 /* Dealerships */
+
+
+
 
 /*  */
 
