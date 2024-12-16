@@ -18,7 +18,7 @@ function selectTab(selectedTab) {
   if (selectedTab.dataset.target === 'exterior-content') {
     carImage.src = 'config-white-car.png';
   } else if (selectedTab.dataset.target === 'interior-content') {
-    carImage.src = 'config-interior.png';
+    carImage.src = 'interior-white.png';
   } else if (selectedTab.dataset.target === 'equipment-content') {
     carImage.src = 'config-equipment.png';
   }
