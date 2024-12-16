@@ -425,7 +425,25 @@ select:focus+ ::after {
     opacity: 1;
 }
 
+.section {
+    display: none; /* Hide by default */
+  }
+  .section.active {
+    display: block; /* Show only active */
+  }
 
+  /* Dropdown Containers */
+  .dropdown-container {
+    margin-bottom: 1.5rem;
+  }
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
 
 /* Jen's work*/
 
