@@ -870,7 +870,7 @@ html {
 .dot:hover 
     background-color: #717171;
 }
-}
+
 
 .fade {
     animation-name: fade;
