@@ -642,6 +642,7 @@ html {
 }
 
 .Trion-Man p {
+    align-self: center;
     position: absolute;
     top: 75%;
     width: 800px;
@@ -867,10 +868,10 @@ html {
 
 .active, .dot:hover {
 .active,
-.dot:hover 
+.dot:hover {
     background-color: #717171;
 }
-
+}
 
 .fade {
     animation-name: fade;
